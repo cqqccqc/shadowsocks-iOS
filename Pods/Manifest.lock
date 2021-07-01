@@ -1,20 +1,26 @@
 PODS:
   - libsodium (1.0.12)
   - OpenSSL-Universal (1.0.2.13)
+  - ZXingObjC (3.1.0):
+    - ZXingObjC/All (= 3.1.0)
+  - ZXingObjC/All (3.1.0)
 
 DEPENDENCIES:
   - libsodium (~> 1.0.3)
   - OpenSSL-Universal
+  - ZXingObjC (~> 3.1)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - libsodium
     - OpenSSL-Universal
+    - ZXingObjC
 
 SPEC CHECKSUMS:
   libsodium: 9a8faa5ef2fa0d2d57bd7f7d79bf8fb7c1a9f0ea
   OpenSSL-Universal: 401888162f11c33ebbd46f782d9229da35c61327
+  ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
 
-PODFILE CHECKSUM: 1ff306279b1e6513e8c47a333d4aef289cfea162
+PODFILE CHECKSUM: 05771a32afab98c7bc313afb3831f488bc5af336
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.1

@@ -453,9 +453,12 @@
 //    NSInteger currentTabTag = 0;
     NSUInteger count = [pages count];
     for (int i = 0; i < count; i++) {
-        if ([[[pages objectAtIndex:i] selected] boolValue]) {
+        if ([[pages objectAtIndex:i] selected]) {
             currentTabTag = i;
         }
+//        if ([[[pages objectAtIndex:i] selected] boolValue]) {
+//            currentTabTag = i;
+//        }
     }
     for (int i = 0; i < count; i++) {
         [self addNewTab];

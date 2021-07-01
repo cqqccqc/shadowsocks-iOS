@@ -1165,6 +1165,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				"zh-Hans",
 				Base,
@@ -1697,7 +1698,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShadowWeb/shadowsocks-Prefix.pch";
-				HEADER_SEARCH_PATHS = "./zxing-objc/**";
+				HEADER_SEARCH_PATHS = "./Pods/**";
 				INFOPLIST_FILE = "ShadowWeb/shadowsocks-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
@@ -1730,7 +1731,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShadowWeb/shadowsocks-Prefix.pch";
-				HEADER_SEARCH_PATHS = "./zxing-objc/**";
+				HEADER_SEARCH_PATHS = "./Pods/**";
 				INFOPLIST_FILE = "ShadowWeb/shadowsocks-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
